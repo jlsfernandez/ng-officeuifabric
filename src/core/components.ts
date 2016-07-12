@@ -11,11 +11,13 @@ import * as contextualMenuModule from '../components/contextualmenu/contextualMe
 import * as datepickerModule from '../components/datepicker/datepickerDirective';
 import * as dialogModule from '../components/dialog/dialogDirective';
 import * as dropdownModule from '../components/dropdown/dropdownDirective';
+import * as facepileModule from '../components/facepile/facepileDirective';
 import * as iconModule from '../components/icon/iconDirective';
 import * as labelModule from '../components/label/labelDirective';
 import * as linkModule from '../components/link/linkDirective';
 import * as listModule from '../components/list/listDirective';
 import * as messageBannerModule from '../components/messagebanner/messageBannerDirective';
+import * as messageBarModule from '../components/messagebar/messageBarDirective';
 import * as navBarModule from '../components/navbar/navbarDirective';
 import * as overlayModule from '../components/overlay/overlayDirective';
 import * as panelModule from '../components/panel/panelDirective';
@@ -51,11 +53,13 @@ export var module: ng.IModule = ng.module('officeuifabric.components', [
   datepickerModule.module.name,
   dialogModule.module.name,
   dropdownModule.module.name,
+  facepileModule.module.name,
   iconModule.module.name,
   labelModule.module.name,
   linkModule.module.name,
   listModule.module.name,
   messageBannerModule.module.name,
+  messageBarModule.module.name,
   navBarModule.module.name,
   overlayModule.module.name,
   panelModule.module.name,
